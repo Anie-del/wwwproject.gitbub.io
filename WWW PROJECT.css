@@ -1,0 +1,272 @@
+/*css file*/
+
+
+body,h1,h2,p,ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color:rgb(200, 136, 246);
+  color: #ecf0f1;
+  padding: 1em;
+}
+
+nav{
+  padding:10px;
+}
+
+nav ul{
+  display: flex;
+  list-style-type:none;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a{
+  font-size: 11px;
+}
+
+
+nav a:hover{
+  color:darkorchid;
+}
+
+section {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+
+
+
+footer {
+  color: black;
+  padding: 1em;
+  text-align:center;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+    color:hotpink;
+    font-size: 30px;
+  }
+
+dd {
+    color:magenta;
+  }
+
+u{
+    color:blueviolet;
+}
+
+
+/* this is a css comment */ 
+
+a:link, a:visited{
+    
+    color: whitesmoke;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block
+}
+
+
+
+
+dd {
+  border-left: #ff9999;
+  padding: 5px;
+  margin-left: 30px;
+
+}
+
+
+#img1{
+  width: 300px;
+  height: 250px;
+  margin-left:130%;
+  padding-top: 20px;
+
+} 
+
+
+
+#img2{
+  width: 300px;
+  height: 250px;
+  margin-left:130%;
+  padding-top: 20px;
+
+} 
+
+
+#img3{
+  width: 300px;
+  height: 250px;
+  margin-left:130%;
+  padding-top: 20px;
+
+} 
+
+
+
+
+#img4{
+  width: 300px;
+  height: 250px;
+  margin-left:130%;
+  padding-top: 20px;
+
+} 
+
+
+
+#img5{
+  width: 300px;
+  height: 250px;
+  margin-left:130%;
+  padding-top: 20px;
+
+} 
+
+
+#img6{
+  width: 300px;
+  height: 250px;
+  margin-left:130%;
+  padding-top: 20px;
+
+} 
+
+
+
+#img7{
+  width: 300px;
+  height: 250px;
+  margin-left:130%;
+  padding-top: 20px;
+
+} 
+
+
+#img8{
+  width: 300px;
+  height: 250px;
+  margin-left:130%;
+  padding-top: 20px;
+
+} 
+
+
+#img9{
+  width: 300px;
+  height: 250px;
+  margin-left:130%;
+  padding-top: 20px;
+
+} 
+
+
+
+body {
+  background-color:lightgray;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+h2 {
+  color:slateblue;
+  margin-left: 40px;
+  text-shadow: 2px 1px lavender;
+} 
+h3{
+  color: mediumslateblue;
+  
+    }
+h4{
+color: mediumslateblue;
+}
+h5{
+  border-left: #ff9999;
+  padding: 5px;
+  margin-left: 30px;
+}
+h6{
+color:white;
+}
+
+
+
+ol {
+  background:rgb(200, 136, 246);
+  padding: 20px;
+}
+
+
+
+
+
+
+
+div{
+      height: 100px;
+      width: 300px;
+   }
+
+
+
+
+input[type=text]{
+          width:100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          border: 2px; 
+          border-radius: 4px;
+          font-size: 16px;
+      }
+
+
+ .hidden {
+  display: none;
+}     
+
+
+
+
+
+
+
+
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+
+  }
+input[type="text"]{
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+}

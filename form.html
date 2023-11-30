@@ -1,0 +1,61 @@
+<!-- form.html -->
+
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="WWW PROJECT.html">Home</a></li>
+      <li><a href="description.html">Detailed Pastry Descriptions </a></li>
+      <li><a href="recipe.html">Recipe Section</a></li>
+      <li><a href="history.html">Origin and History </a></li>
+      <li><a href="ingredient.html">Ingredient Sourcing</a></li>
+      <li><a href="form.html">Form</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <!-- Adds links to other pages -->
+      
+    </ul>
+  </nav>
+</header>
+<br>
+
+<link rel ="stylesheet" href="WWW PROJECT.css">
+
+
+
+  
+<style>
+  label {
+    display: block;
+    margin-bottom: 5px;
+
+  }
+input[type="text"]{
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+</style>
+
+
+
+
+  <form action="submit_form.php" method="post" onsubmit="showAlert()">
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  
+<script>
+  function showAlert() {
+    alert('Your form has been submitted! We would get back to you soon.');
+  }
+</script>
